@@ -1,6 +1,6 @@
 [Unit]
 Description=Safe Docker cleanup with Pushover reporting
-Documentation=https://github.com/YOUR_GITHUB_USERNAME/docker-prune-pushover
+Documentation=https://github.com/Snake16547/docker-clean-pushover/
 After=docker.service
 Requires=docker.service
 
