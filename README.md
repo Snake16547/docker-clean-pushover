@@ -63,7 +63,7 @@ Do not automate volume deletion unless you fully understand every volume on the 
 Clone the repository on the Docker host:
 
 ```bash
-git clone https://github.com/Snake16547/docker-prune-pushover.git
+git clone https://github.com/Snake16547/docker-clean-pushover.git
 cd docker-prune-pushover
 sudo ./install.sh
 ```
