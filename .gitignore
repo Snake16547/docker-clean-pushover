@@ -1,0 +1,11 @@
+# Never commit local secrets or generated units
+*.env
+.env
+.env.*
+!example.env
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*~
