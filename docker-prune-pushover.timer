@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly Docker cleanup timer
+
+[Timer]
+OnCalendar=@@ON_CALENDAR@@
+Persistent=true
+RandomizedDelaySec=@@RANDOM_DELAY@@
+Unit=docker-prune-pushover.service
+
+[Install]
+WantedBy=timers.target
