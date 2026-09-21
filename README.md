@@ -64,7 +64,7 @@ Clone the repository on the Docker host:
 
 ```bash
 git clone https://github.com/Snake16547/docker-clean-pushover.git
-cd docker-prune-pushover
+cd docker-clean-pushover
 sudo ./install.sh
 ```
 
