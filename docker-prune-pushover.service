@@ -1,0 +1,13 @@
+[Unit]
+Description=Safe Docker cleanup with Pushover reporting
+Documentation=https://github.com/YOUR_GITHUB_USERNAME/docker-prune-pushover
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=@@BIN_PATH@@
+EnvironmentFile=@@ENV_FILE@@
+TimeoutStartSec=35min
+Nice=19
+IOSchedulingClass=idle
